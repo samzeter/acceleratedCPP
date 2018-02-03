@@ -1,0 +1,4 @@
+grade.o: grade.cpp grade.hpp Student_info.hpp median.hpp
+main.o: main.cpp grade.hpp Student_info.hpp
+median.o: median.cpp
+Student_info.o: Student_info.cpp Student_info.hpp
